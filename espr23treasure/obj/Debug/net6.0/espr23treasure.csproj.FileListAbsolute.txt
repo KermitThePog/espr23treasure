@@ -1,0 +1,14 @@
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\bin\Debug\net6.0\espr23treasure.exe
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\bin\Debug\net6.0\espr23treasure.deps.json
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\bin\Debug\net6.0\espr23treasure.runtimeconfig.json
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\bin\Debug\net6.0\espr23treasure.dll
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\bin\Debug\net6.0\espr23treasure.pdb
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\obj\Debug\net6.0\espr23treasure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\obj\Debug\net6.0\espr23treasure.AssemblyInfoInputs.cache
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\obj\Debug\net6.0\espr23treasure.AssemblyInfo.cs
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\obj\Debug\net6.0\espr23treasure.csproj.CoreCompileInputs.cache
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\obj\Debug\net6.0\espr23treasure.dll
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\obj\Debug\net6.0\refint\espr23treasure.dll
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\obj\Debug\net6.0\espr23treasure.pdb
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\obj\Debug\net6.0\espr23treasure.genruntimeconfig.cache
+C:\Users\thesi\Desktop\Allfolder\prog\proj\espr23treasure\espr23treasure\obj\Debug\net6.0\ref\espr23treasure.dll
