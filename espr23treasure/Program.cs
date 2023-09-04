@@ -1,5 +1,7 @@
 ﻿using espr23treasure;
 
+//Solution for EPSR 2023 application round 1
+
 var lck = new TreasureLock();
 lck.Randomise();
 lck.Press(0b1111, false);
