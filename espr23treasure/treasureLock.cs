@@ -1,19 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Net.Mime;
 
 namespace espr23treasure
 {
-    internal class treasureLock
+    internal class TreasureLock
     {
-        public byte buttons = 0b0000;
-        Random rnd = new Random();
+        private byte _buttons;
+        private readonly Random _rnd = new Random();
 
         public void Randomise()
         {
-            buttons = (byte)rnd.Next(0, 256);
+            _buttons = (byte)_rnd.Next(0, 16);
+            Console.WriteLine(ToString());
+            Check();
         }
 
         public void Spin()
@@ -21,14 +19,27 @@ namespace espr23treasure
             
         }
 
-        public string ToString()
+        public override string ToString()
         {
-            return Convert.ToString(buttons >> 4, 2).PadLeft(4, '0');
+            return Convert.ToString(_buttons, 2).PadLeft(4, '0');
         }
 
-        public void Press(byte toPress)
+        public void Press(byte toPress, bool flip = true)
         {
-            buttons = (byte)(buttons ^ toPress);
+            _buttons = (byte)(_buttons ^ toPress);
+            Check();
+            Console.WriteLine(ToString());
+            if (flip)
+            {
+                Press(0b1111, false);
+            }
+        }
+
+        public void Check()
+        {
+            if (_buttons != 0b1111) return;
+            Console.WriteLine("Solved");
+            Environment.Exit(0);
         }
     }
 }
