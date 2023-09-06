@@ -4,7 +4,6 @@ using Convert = System.Convert;
 
 namespace espr23treasure
 {
-    [SuppressMessage("ReSharper", "MemberCanBePrivate.Global")]
     internal class TreasureLock
     {
         private byte _buttons;  //four most significant bits should remain zero throughout the program
